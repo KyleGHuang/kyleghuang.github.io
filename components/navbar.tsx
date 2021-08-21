@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="w-screen h-16 shadow-lg flex justify-start items-center font-extrabold text-gray-700 bg-white">
+    <div className="w-screen h-16 shadow-lg flex justify-start items-center font-semibold text-gray-700 bg-white">
       <div className="p-6 w-full h-full flex flex-row justify-between items-center">
         <div className="text-2xl">
           <a href="https://kyleghuang.github.io" className="font-sans">kyleghuang.github.io</a>

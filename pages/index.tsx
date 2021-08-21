@@ -10,7 +10,7 @@ export default function Home() {
           className="rounded-3xl shadow-2xl object-cover transition duration-500 ease-in-out transform hover:scale-105"
         />
         <div className="flex justify-center items-center">
-          <p className="font-extrabold text-gray-700 text-4xl select-none text-left font-sans">
+          <p className="font-semibold text-gray-700 text-4xl select-none text-left font-sans">
             Yup, that's me. This picture was taken on The High Line in
             Manhattan. My name is Kyle Huang and I am a junior at Stony Brook
             University pursing a Bachelor of Science in Computer Science.
