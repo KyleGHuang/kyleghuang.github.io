@@ -1,11 +1,12 @@
 export default function Navbar() {
   return (
-    <div className="fixed w-screen h-16 shadow-lg flex justify-start items-center font-extrabold text-gray-800">
+    <div className="w-screen h-16 shadow-lg flex justify-start items-center font-extrabold text-gray-700 bg-white">
       <div className="p-6 w-full h-full flex flex-row justify-between items-center">
         <div className="text-2xl">
           <a href="https://kyleghuang.github.io">kyleghuang.github.io</a>
         </div>
-        <div className="w-20 flex flex-row justify-between">
+        <div className="w-96 flex flex-row justify-end gap-x-6">
+          <div className="text-lg select-all pl-4">kyleghuang@gmail.com</div>
           <a href="https://github.com/KyleGHuang">
             <svg
               xmlns="http://www.w3.org/2000/svg"
