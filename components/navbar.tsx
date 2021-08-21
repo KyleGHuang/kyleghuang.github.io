@@ -1,17 +1,17 @@
 export default function Navbar() {
   return (
-    <div className="w-screen h-16 shadow-lg flex justify-start items-center text-gray-700 bg-white">
-      <div className="p-6 w-full h-full flex flex-row justify-between items-center">
-        <div className="text-2xl">
+    <div className="w-screen h-28 md:h-16 shadow-xl md:shadow-lg flex justify-center items-center text-gray-700 bg-white">
+      <div className="p-6 w-full h-full grid grid-cols-1 grid-rows-2 justify-center items-center gap-8 md:justify-start md:grid-cols-2 md:grid-rows-1">
+        <div className="text-4xl md:text-3xl flex justify-center md:justify-between items-center">
           <a href="https://kyleghuang.github.io">kyleghuang.github.io</a>
         </div>
-        <div className="w-96 flex flex-row justify-end gap-x-6">
-          <div className="text-lg select-all pl-4">kyleghuang@gmail.com</div>
+        <div className="w-full flex flex-row justify-center items-center gap-x-6 md:justify-end">
+          <div className="text-md md:text-lg select-all pl-4">kyleghuang@gmail.com</div>
           <a href="https://github.com/KyleGHuang">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
               fill="#211F1F"
             >
@@ -21,8 +21,8 @@ export default function Navbar() {
           <a href="https://www.linkedin.com/in/kyleghuang/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
               fill="#0077B5"
             >
