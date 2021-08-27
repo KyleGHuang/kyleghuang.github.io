@@ -13,8 +13,8 @@ export default function Home() {
           Yup, that's me. This picture was taken on The High Line in Manhattan.
           My name is Kyle Huang and I am a junior at Stony Brook University
           pursing a Bachelor of Science in Computer Science. Try opening this
-          website on mobile, its responsive! I am currently working on two
-          projects listed below (working on listing it below) and this website.
+          website on mobile or resize the window, its responsive! I am currently working on two
+          projects listed below (working on that) and this website.
         </p>
       </div>
     </div>
