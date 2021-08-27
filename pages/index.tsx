@@ -9,7 +9,7 @@ export default function Home() {
           src="/kyle.png"
           className="rounded-3xl shadow-xl object-cover object-top transition duration-500 ease-in-out transform hover:scale-105 w-full h-full md:object-center"
         />
-        <p className="text-gray-700 text-xl select-none text-left overflow-auto xl:text-3xl">
+        <p className="text-gray-700 text-xl select-none text-left xl:text-3xl">
           Yup, that's me. This picture was taken on The High Line in Manhattan.
           My name is Kyle Huang and I am a junior at Stony Brook University
           pursing a Bachelor of Science in Computer Science. Try opening this
