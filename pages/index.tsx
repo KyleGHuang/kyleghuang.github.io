@@ -9,12 +9,12 @@ export default function Home() {
           src="/kyle.png"
           className="rounded-3xl shadow-xl object-cover object-top transition duration-500 ease-in-out transform hover:scale-105 w-full h-5/6 md:w-full md:h-full"
         />
-        <span className="text-gray-700 text-xl select-none text-left pb-6 self-start md:text-4xl md:pb-0 md:self-center">
+        <span className="text-gray-700 text-xl select-none text-left pb-6 self-start md:text-3xl md:pb-0 md:self-center lg:text-4xl">
           Yup, that's me. This picture was taken on The High Line in Manhattan.
           My name is Kyle Huang and I am a junior at Stony Brook University
-          pursing a Bachelor of Science in Computer Science. I am currently
-          working on two projects listed below (working on listing it below) and
-          this website. Try opening this website on mobile, its responsive!
+          pursing a Bachelor of Science in Computer Science. Try opening this
+          website on mobile, its responsive! I am currently working on two
+          projects listed below (working on listing it below) and this website.
         </span>
       </div>
     </div>
