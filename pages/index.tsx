@@ -2,20 +2,20 @@ import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen overflow-x-hidden flex flex-col justify-start items-center gap-8 font-sans font-bold">
+    <div className="w-full h-full overflow-x-hidden flex flex-col justify-start items-center font-sans font-bold">
       <Navbar />
-      <div className="w-full h-full grid grid-cols-1 grid-rows-2 content-start items-start px-8 md:gap-12 lg:grid-cols-2 lg:grid-rows-1 lg:h-5/6 lg:p-12">
+      <div className="w-full h-full grid grid-cols-1 content-start items-center p-8 gap-8 md:p-12 md:gap-12 lg:grid-cols-2">
         <img
           src="/kyle.png"
-          className="rounded-3xl shadow-xl object-cover object-top transition duration-500 ease-in-out transform hover:scale-105 w-full h-5/6 md:h-full md:object-center"
+          className="rounded-3xl shadow-xl object-cover object-top transition duration-500 ease-in-out transform hover:scale-105 w-full h-full md:object-center"
         />
-        <span className="text-gray-700 text-xl select-none text-left pb-6 self-start md:text-2xl lg:text-3xl lg:pb-0 lg:self-center xl:text-4xl">
+        <p className="text-gray-700 text-xl select-none text-left overflow-auto xl:text-3xl">
           Yup, that's me. This picture was taken on The High Line in Manhattan.
           My name is Kyle Huang and I am a junior at Stony Brook University
           pursing a Bachelor of Science in Computer Science. Try opening this
           website on mobile, its responsive! I am currently working on two
           projects listed below (working on listing it below) and this website.
-        </span>
+        </p>
       </div>
     </div>
   );
