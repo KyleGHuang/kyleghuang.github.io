@@ -19,8 +19,9 @@ export default function Website() {
       <p className="font-medium">
         This is the site you are on right now! Over the winter of 2022, I
         decided to rework on my personal website. I focused on a responsive
-        design, clean look, and a simple design. It allowed me to practice and
-        recall what I've leanred.
+        design, clean look, and a simple design. It utilizes GitHub Actions to
+        automatically deploy on GitHub Pages. This project allowed me to
+        practice and recall what I've leanred.
       </p>
     </div>
   );
