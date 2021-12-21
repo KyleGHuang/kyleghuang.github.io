@@ -17,11 +17,11 @@ export default function Website() {
         </div>
       </div>
       <p className="font-medium">
-        This is the site you are on right now! Over the winter of 2022, I
-        decided to rework on my personal website. I focused on a responsive
-        design, clean look, and a simple design. It utilizes GitHub Actions to
+        This is the site you are on right now! Over the winter of 2021, I
+        decided to rework my personal website. I focused on a responsive design,
+        a clean look, and a simple design. It utilizes GitHub Actions to
         automatically deploy on GitHub Pages. This project allowed me to
-        practice and recall what I've leanred.
+        practice and recall what I've learned.
       </p>
     </div>
   );
