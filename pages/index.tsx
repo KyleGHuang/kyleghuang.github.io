@@ -21,7 +21,7 @@ export default function Home() {
           <motion.p
             className="text-lg font-medium"
             animate={{ y: 12 }}
-            transition={{ delay: .6 }}
+            transition={{ delay: 0.65 }}
           >
             I'm current a junior studying Computer Science at Stony Brook
             University. I love working with tech and computers, whether it's
