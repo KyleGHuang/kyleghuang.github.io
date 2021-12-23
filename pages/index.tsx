@@ -15,13 +15,13 @@ export default function Home() {
         <motion.div
           className="w-full xl:w-4/6 flex flex-col pr-16 sm:pr-56 md:pr-96 lg:pr-[800px] xl:pr-[500px] 2xl:pr-[750px]"
           animate={{ x: 20 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 1.5 }}
         >
           <p className="text-3xl">Hello. I'm Kyle.</p>
           <motion.p
             className="text-lg font-medium"
             animate={{ y: 12 }}
-            transition={{ delay: 0.65 }}
+            transition={{ delay: 1.65 }}
           >
             I'm current a junior studying Computer Science at Stony Brook
             University. I love working with tech and computers, whether it's

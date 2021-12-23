@@ -5,7 +5,7 @@ export default function HeroSocials() {
     <motion.div
       className="flex flex-row flex-none justify-start items-center"
       animate={{ y: 40 }}
-      transition={{ delay: 0.755 }}
+      transition={{ delay: 1.755 }}
     >
       <a className="" href="https://www.linkedin.com/in/kyleghuang/">
         <svg
@@ -22,7 +22,7 @@ export default function HeroSocials() {
         className=""
         href="https://github.com/KyleGHuang"
         animate={{ x: 40 }}
-        transition={{ delay: 1.3 }}
+        transition={{ delay: 2.3 }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function HeroSocials() {
         className=""
         href="mailto:kyleghuang@gmail.com"
         animate={{ x: 80 }}
-        transition={{ delay: 1.3 }}
+        transition={{ delay: 2.3 }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
